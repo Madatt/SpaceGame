@@ -1,0 +1,796 @@
+atlas.png
+size: 972, 1692
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Asteroid 01
+  rotate: false
+  xy: 724, 1447
+  size: 77, 75
+  orig: 77, 75
+  offset: 0, 0
+  index: -1
+Asteroid 02
+  rotate: true
+  xy: 916, 1313
+  size: 51, 55
+  orig: 51, 55
+  offset: 0, 0
+  index: -1
+Asteroid 03
+  rotate: false
+  xy: 892, 1464
+  size: 75, 72
+  orig: 75, 72
+  offset: 0, 0
+  index: -1
+Asteroid 04
+  rotate: false
+  xy: 803, 1455
+  size: 87, 71
+  orig: 87, 71
+  offset: 0, 0
+  index: -1
+Background
+  rotate: false
+  xy: 1, 1
+  size: 700, 800
+  orig: 700, 800
+  offset: 0, 0
+  index: -1
+Cover_Blue
+  rotate: false
+  xy: 559, 1630
+  size: 70, 46
+  orig: 70, 46
+  offset: 27, 38
+  index: -1
+Cover_Green
+  rotate: true
+  xy: 921, 620
+  size: 70, 46
+  orig: 129, 128
+  offset: 27, 38
+  index: -1
+Cover_Red
+  rotate: true
+  xy: 921, 692
+  size: 70, 46
+  orig: 129, 128
+  offset: 27, 38
+  index: -1
+Enemy01_Blue_Frame
+  rotate: true
+  xy: 1, 1447
+  size: 128, 107
+  orig: 128, 128
+  offset: 0, 11
+  index: 1
+Enemy01_Blue_Frame
+  rotate: true
+  xy: 641, 803
+  size: 122, 106
+  orig: 128, 128
+  offset: 2, 11
+  index: 2
+Enemy01_Blue_Frame
+  rotate: false
+  xy: 641, 927
+  size: 116, 105
+  orig: 128, 128
+  offset: 6, 11
+  index: 3
+Enemy01_Green_Frame
+  rotate: true
+  xy: 703, 645
+  size: 128, 107
+  orig: 128, 128
+  offset: 0, 11
+  index: 1
+Enemy01_Green_Frame
+  rotate: false
+  xy: 641, 1034
+  size: 122, 106
+  orig: 128, 128
+  offset: 2, 11
+  index: 2
+Enemy01_Green_Frame
+  rotate: true
+  xy: 483, 1249
+  size: 116, 105
+  orig: 128, 128
+  offset: 6, 11
+  index: 3
+Enemy01_Red_Frame
+  rotate: true
+  xy: 749, 775
+  size: 128, 107
+  orig: 128, 128
+  offset: 0, 11
+  index: 1
+Enemy01_Red_Frame
+  rotate: false
+  xy: 378, 1141
+  size: 122, 106
+  orig: 128, 128
+  offset: 2, 11
+  index: 2
+Enemy01_Red_Frame
+  rotate: false
+  xy: 502, 1142
+  size: 116, 105
+  orig: 128, 128
+  offset: 6, 11
+  index: 3
+Enemy01_Shadow_Frame
+  rotate: false
+  xy: 511, 803
+  size: 128, 109
+  orig: 128, 128
+  offset: 0, 10
+  index: 1
+Enemy01_Shadow_Frame
+  rotate: true
+  xy: 765, 1018
+  size: 125, 108
+  orig: 128, 128
+  offset: 1, 10
+  index: 2
+Enemy01_Shadow_Frame
+  rotate: true
+  xy: 450, 1548
+  size: 119, 107
+  orig: 128, 128
+  offset: 5, 10
+  index: 3
+Enemy01_Teal_Frame
+  rotate: true
+  xy: 812, 645
+  size: 128, 107
+  orig: 128, 128
+  offset: 0, 11
+  index: 1
+Enemy01_Teal_Frame
+  rotate: true
+  xy: 119, 1323
+  size: 122, 106
+  orig: 128, 128
+  offset: 2, 11
+  index: 2
+Enemy01_Teal_Frame
+  rotate: false
+  xy: 620, 1142
+  size: 116, 105
+  orig: 128, 128
+  offset: 6, 11
+  index: 3
+Enemy02_Blue_Frame
+  rotate: true
+  xy: 703, 515
+  size: 128, 108
+  orig: 128, 128
+  offset: 0, 10
+  index: 1
+Enemy02_Blue_Frame
+  rotate: true
+  xy: 249, 1193
+  size: 122, 108
+  orig: 128, 128
+  offset: 6, 10
+  index: 2
+Enemy02_Blue_Frame
+  rotate: false
+  xy: 699, 1252
+  size: 105, 108
+  orig: 128, 128
+  offset: 13, 10
+  index: 3
+Enemy02_Shadow_Frame
+  rotate: false
+  xy: 833, 261
+  size: 128, 111
+  orig: 128, 128
+  offset: 0, 1
+  index: 1
+Enemy02_Shadow_Frame
+  rotate: false
+  xy: 759, 905
+  size: 124, 111
+  orig: 128, 128
+  offset: 4, 1
+  index: 2
+Enemy02_Shadow_Frame
+  rotate: false
+  xy: 590, 1249
+  size: 107, 111
+  orig: 128, 128
+  offset: 12, 1
+  index: 3
+Enemy02_Teal_Frame
+  rotate: false
+  xy: 511, 1023
+  size: 128, 107
+  orig: 128, 128
+  offset: 0, 3
+  index: 1
+Enemy02_Teal_Frame
+  rotate: false
+  xy: 359, 1249
+  size: 122, 108
+  orig: 128, 128
+  offset: 5, 3
+  index: 2
+Enemy02_Teal_Frame
+  rotate: true
+  xy: 806, 1257
+  size: 105, 108
+  orig: 128, 128
+  offset: 13, 2
+  index: 3
+Enemy02Green_Frame
+  rotate: true
+  xy: 858, 775
+  size: 128, 107
+  orig: 128, 128
+  offset: 0, 3
+  index: 1
+Enemy02Green_Frame
+  rotate: true
+  xy: 110, 1447
+  size: 122, 108
+  orig: 128, 128
+  offset: 5, 3
+  index: 2
+Enemy02Green_Frame
+  rotate: true
+  xy: 227, 1441
+  size: 105, 108
+  orig: 128, 128
+  offset: 13, 2
+  index: 3
+Enemy02Red_Frame
+  rotate: false
+  xy: 511, 914
+  size: 128, 107
+  orig: 128, 128
+  offset: 0, 3
+  index: 1
+Enemy02Red_Frame
+  rotate: true
+  xy: 227, 1317
+  size: 122, 108
+  orig: 128, 128
+  offset: 5, 3
+  index: 2
+Enemy02Red_Frame
+  rotate: true
+  xy: 738, 1145
+  size: 105, 108
+  orig: 128, 128
+  offset: 13, 2
+  index: 3
+Exhaust_Frame
+  rotate: false
+  xy: 770, 1599
+  size: 45, 57
+  orig: 45, 57
+  offset: 0, 0
+  index: 1
+Exhaust_Frame
+  rotate: false
+  xy: 755, 1524
+  size: 46, 60
+  orig: 46, 60
+  offset: 0, 0
+  index: 2
+Exhaust_Frame
+  rotate: false
+  xy: 930, 1538
+  size: 31, 52
+  orig: 31, 52
+  offset: 0, 0
+  index: 3
+Exhaust_Frame
+  rotate: false
+  xy: 817, 1599
+  size: 47, 54
+  orig: 47, 54
+  offset: 0, 0
+  index: 4
+Exhaust_Frame
+  rotate: false
+  xy: 866, 1599
+  size: 46, 55
+  orig: 46, 55
+  offset: 0, 0
+  index: 5
+Exhaust_Frame
+  rotate: false
+  xy: 823, 418
+  size: 30, 47
+  orig: 30, 47
+  offset: 0, 0
+  index: 6
+Explosion01_Frame
+  rotate: false
+  xy: 337, 1338
+  size: 19, 19
+  orig: 129, 128
+  offset: 53, 52
+  index: 1
+Explosion01_Frame
+  rotate: false
+  xy: 813, 603
+  size: 27, 27
+  orig: 129, 128
+  offset: 49, 48
+  index: 2
+Explosion01_Frame
+  rotate: false
+  xy: 813, 515
+  size: 43, 42
+  orig: 129, 128
+  offset: 42, 42
+  index: 3
+Explosion01_Frame
+  rotate: false
+  xy: 916, 1257
+  size: 55, 54
+  orig: 129, 128
+  offset: 36, 37
+  index: 4
+Explosion01_Frame
+  rotate: false
+  xy: 631, 1611
+  size: 69, 69
+  orig: 129, 128
+  offset: 29, 30
+  index: 5
+Explosion01_Frame
+  rotate: false
+  xy: 724, 1362
+  size: 80, 83
+  orig: 129, 128
+  offset: 23, 22
+  index: 6
+Explosion01_Frame
+  rotate: false
+  xy: 521, 1367
+  size: 90, 99
+  orig: 129, 128
+  offset: 19, 11
+  index: 7
+Explosion01_Frame
+  rotate: true
+  xy: 848, 1157
+  size: 98, 109
+  orig: 129, 128
+  offset: 15, 6
+  index: 8
+Explosion01_Frame
+  rotate: false
+  xy: 228, 1548
+  size: 109, 121
+  orig: 129, 128
+  offset: 10, 0
+  index: 9
+Explosion02_Frame
+  rotate: false
+  xy: 770, 1658
+  size: 19, 19
+  orig: 129, 128
+  offset: 52, 52
+  index: 1
+Explosion02_Frame
+  rotate: false
+  xy: 823, 467
+  size: 27, 27
+  orig: 129, 128
+  offset: 48, 48
+  index: 2
+Explosion02_Frame
+  rotate: false
+  xy: 813, 559
+  size: 42, 42
+  orig: 129, 128
+  offset: 42, 42
+  index: 3
+Explosion02_Frame
+  rotate: false
+  xy: 874, 1538
+  size: 54, 54
+  orig: 129, 128
+  offset: 36, 37
+  index: 4
+Explosion02_Frame
+  rotate: false
+  xy: 803, 1528
+  size: 69, 69
+  orig: 129, 128
+  offset: 28, 30
+  index: 5
+Explosion02_Frame
+  rotate: true
+  xy: 337, 1465
+  size: 81, 83
+  orig: 129, 128
+  offset: 22, 22
+  index: 6
+Explosion02_Frame
+  rotate: true
+  xy: 806, 1364
+  size: 89, 99
+  orig: 129, 128
+  offset: 19, 11
+  index: 7
+Explosion02_Frame
+  rotate: true
+  xy: 613, 1362
+  size: 98, 109
+  orig: 129, 128
+  offset: 14, 6
+  index: 8
+Explosion02_Frame
+  rotate: false
+  xy: 339, 1548
+  size: 109, 121
+  orig: 129, 128
+  offset: 9, 0
+  index: 9
+Green_Frame
+  rotate: false
+  xy: 703, 391
+  size: 118, 122
+  orig: 128, 128
+  offset: 5, 4
+  index: 1
+GunTurret_ExampleGun
+  rotate: false
+  xy: 954, 905
+  size: 17, 77
+  orig: 17, 77
+  offset: 0, 0
+  index: -1
+GunTurret_Green
+  rotate: false
+  xy: 626, 1462
+  size: 77, 66
+  orig: 77, 66
+  offset: 0, 0
+  index: -1
+GunTurret_Orange
+  rotate: true
+  xy: 619, 1532
+  size: 77, 66
+  orig: 77, 66
+  offset: 0, 0
+  index: -1
+GunTurret_Red
+  rotate: true
+  xy: 687, 1530
+  size: 77, 66
+  orig: 77, 66
+  offset: 0, 0
+  index: -1
+GunTurret_Teal
+  rotate: true
+  xy: 702, 1609
+  size: 77, 66
+  orig: 77, 66
+  offset: 0, 0
+  index: -1
+GunTurretMount
+  rotate: false
+  xy: 261, 933
+  size: 126, 126
+  orig: 126, 126
+  offset: 0, 0
+  index: -1
+Laser_Large
+  rotate: true
+  xy: 228, 1671
+  size: 18, 54
+  orig: 18, 54
+  offset: 0, 0
+  index: -1
+Laser_Medium
+  rotate: false
+  xy: 705, 1462
+  size: 15, 44
+  orig: 15, 44
+  offset: 0, 0
+  index: -1
+Laser_Small
+  rotate: true
+  xy: 506, 1532
+  size: 13, 37
+  orig: 13, 37
+  offset: 0, 0
+  index: -1
+Minigun_Large
+  rotate: true
+  xy: 284, 1671
+  size: 18, 54
+  orig: 18, 54
+  offset: 0, 0
+  index: -1
+Minigun_Medium
+  rotate: false
+  xy: 833, 374
+  size: 23, 42
+  orig: 23, 42
+  offset: 0, 0
+  index: -1
+Minigun_Small
+  rotate: true
+  xy: 340, 1671
+  size: 13, 34
+  orig: 13, 34
+  offset: 0, 0
+  index: -1
+Plasma_Large
+  rotate: false
+  xy: 605, 1468
+  size: 19, 62
+  orig: 19, 62
+  offset: 0, 0
+  index: -1
+Plasma_Medium
+  rotate: false
+  xy: 359, 1186
+  size: 17, 52
+  orig: 17, 52
+  offset: 0, 0
+  index: -1
+Plasma_Small
+  rotate: false
+  xy: 954, 984
+  size: 15, 47
+  orig: 15, 47
+  offset: 0, 0
+  index: -1
+Platform
+  rotate: false
+  xy: 703, 131
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 1
+Platform
+  rotate: false
+  xy: 833, 1
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 2
+Platform
+  rotate: false
+  xy: 1, 1063
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+Platform
+  rotate: false
+  xy: 131, 933
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 4
+Platform_Corner
+  rotate: false
+  xy: 261, 803
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Platform_Corner_NorthEast
+  rotate: false
+  xy: 703, 261
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Platform_Corner_NorthWest
+  rotate: false
+  xy: 833, 131
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Platform_Corner_SouthEast
+  rotate: false
+  xy: 1, 1193
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Platform_Corner_SouthWest
+  rotate: false
+  xy: 131, 1063
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Platform_Edge
+  rotate: false
+  xy: 885, 905
+  size: 67, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+PlatformCorner_NorthEast
+  rotate: false
+  xy: 1, 803
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+PlatformCorner_NorthWest
+  rotate: false
+  xy: 703, 1
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+PlatformCorner_SouthEast
+  rotate: false
+  xy: 1, 933
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+PlatformCorner_SouthWest
+  rotate: false
+  xy: 131, 803
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+PlayerBlue_Frame
+  rotate: false
+  xy: 1, 1323
+  size: 116, 122
+  orig: 128, 128
+  offset: 6, 4
+  index: 1
+PlayerBlue_Frame
+  rotate: true
+  xy: 1, 1577
+  size: 113, 121
+  orig: 128, 128
+  offset: 14, 6
+  index: 2
+PlayerBlue_Frame
+  rotate: true
+  xy: 389, 933
+  size: 102, 120
+  orig: 128, 128
+  offset: 22, 7
+  index: 3
+PlayerGreen_Frame
+  rotate: false
+  xy: 858, 374
+  size: 113, 121
+  orig: 128, 128
+  offset: 14, 6
+  index: 92
+PlayerRed_Frame
+  rotate: false
+  xy: 131, 1193
+  size: 116, 122
+  orig: 128, 128
+  offset: 6, 4
+  index: 1
+PlayerRed_Frame
+  rotate: false
+  xy: 858, 497
+  size: 113, 121
+  orig: 128, 128
+  offset: 14, 6
+  index: 2
+PlayerRed_Frame_03 kopia
+  rotate: true
+  xy: 389, 1037
+  size: 102, 120
+  orig: 128, 128
+  offset: 22, 7
+  index: -1
+PlayerRed_Frame
+  rotate: false
+  xy: 124, 1571
+  size: 102, 120
+  orig: 128, 128
+  offset: 22, 7
+  index: 3
+PlayerShadow_Frame
+  rotate: false
+  xy: 391, 803
+  size: 118, 124
+  orig: 128, 128
+  offset: 5, 3
+  index: 1
+PlayerShadow_Frame
+  rotate: false
+  xy: 261, 1061
+  size: 115, 123
+  orig: 128, 128
+  offset: 13, 5
+  index: 2
+PlayerShadow_Frame
+  rotate: true
+  xy: 337, 1359
+  size: 104, 122
+  orig: 128, 128
+  offset: 21, 6
+  index: 3
+Powerup_Ammo
+  rotate: true
+  xy: 461, 1367
+  size: 96, 58
+  orig: 96, 58
+  offset: 0, 0
+  index: -1
+Powerup_Energy
+  rotate: false
+  xy: 875, 1035
+  size: 96, 59
+  orig: 96, 59
+  offset: 0, 0
+  index: -1
+Powerup_Health
+  rotate: false
+  xy: 875, 1096
+  size: 96, 59
+  orig: 96, 59
+  offset: 0, 0
+  index: -1
+Powerup_Rockets
+  rotate: true
+  xy: 907, 1366
+  size: 96, 58
+  orig: 96, 58
+  offset: 0, 0
+  index: -1
+Powerup_Shadow
+  rotate: false
+  xy: 506, 1468
+  size: 97, 62
+  orig: 97, 62
+  offset: 0, 0
+  index: -1
+Powerup_Shields
+  rotate: true
+  xy: 559, 1532
+  size: 96, 58
+  orig: 96, 58
+  offset: 0, 0
+  index: -1
+Proton_Large
+  rotate: true
+  xy: 703, 775
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+Proton_Medium
+  rotate: true
+  xy: 337, 1317
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+Proton_Small
+  rotate: false
+  xy: 755, 1586
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+Rotor
+  rotate: false
+  xy: 422, 1465
+  size: 82, 81
+  orig: 82, 81
+  offset: 21, 21
+  index: -1
