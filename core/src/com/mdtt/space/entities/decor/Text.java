@@ -14,6 +14,7 @@ public class Text extends Entity {
     private BitmapFont font;
     private String text;
     private boolean blink;
+    private int stroke;
     private float blinkChange = 2f;
     private float transparency = 1.f;
 
@@ -22,6 +23,7 @@ public class Text extends Entity {
         super(assets, screen);
         font = assets.getFont(size, stroke);
         this.text = text;
+        this.stroke = stroke;
         layout = new GlyphLayout(font, text);
         this.blink = blink;
     }
@@ -46,7 +48,8 @@ public class Text extends Entity {
 
     @Override
     public Rectangle getBox() {
-        return new Rectangle(x - layout.width / 2, y - layout.height / 2, layout.width, layout.height);
+        return new Rectangle(x - layout.width / 2, y - layout.height / 2 - stroke,
+                layout.width, layout.height + stroke + stroke + stroke);
     }
 
     @Override
@@ -59,7 +62,8 @@ public class Text extends Entity {
     @Override
     public void draw(Batch batch) {
         font.setColor(1, 1,1, transparency);
-        font.draw(batch, text, x - layout.width / 2, y - layout.height / 2);
+        font.draw(batch, text, x - layout.width / 2, y + layout.height / 2 - stroke /2.f);
+        //font.draw(batch, text, x, y);
     }
 
     @Override

@@ -28,12 +28,15 @@ public class BasicEnemySpawner extends GameSystem {
     private GameTimer rotorTimer = new GameTimer();
     private GameTimer blueBasicTimer = new GameTimer();
 
-    private ArrayList<com.mdtt.space.entities.enemies.Rotor> rotors = new ArrayList<>();
-    private ArrayList<BlueBasic> blueBasics = new ArrayList<>();
+    private EnemyContainer rotors;
+    private EnemyContainer blueBasics;
 
     public BasicEnemySpawner(Assets assets, SpaceGameScreen screen) {
         super(assets, screen);
         this.factory = new EntityFactory(assets, screen);
+        rotors = new EnemyContainer(assets, screen);
+        blueBasics = new EnemyContainer(assets, screen);
+
         rotorTimer.restart(defaultSpawnDelay);
         blueBasicTimer.restart(defaultSpawnDelay);
         asteroidTimer.restart(randomRange(Asteroid.respawnMin, Asteroid.respawnMax));
@@ -61,14 +64,9 @@ public class BasicEnemySpawner extends GameSystem {
     }
 
     private void spawnRotors() {
-        for (Rotor r : new ArrayList<>(rotors)) {
-            if (r.isDead())
-                rotors.remove(r);
-        }
-
-        if (rotors.isEmpty() && !rotorTimer.running()) {
+        if (rotors.allDead() && !rotorTimer.running()) {
             rotorTimer.restart(defaultSpawnDelay);
-        } else if (rotors.isEmpty() && rotorTimer.elapsed()) {
+        } else if (rotors.allDead() && rotorTimer.elapsed()) {
             rotorTimer.stop();
             for (int i = 0; i <= rotorNumber; i++) {
                 Gdx.app.log("Spawner", "Spawn rotors");
@@ -87,14 +85,9 @@ public class BasicEnemySpawner extends GameSystem {
     }
 
     public void spawnBlueBasics() {
-        for (BlueBasic b : new ArrayList<>(blueBasics)) {
-            if (b.isDead())
-                blueBasics.remove(b);
-        }
-
-        if(blueBasics.isEmpty() && !blueBasicTimer.running()) {
+        if(blueBasics.allDead() && !blueBasicTimer.running()) {
             blueBasicTimer.restart(defaultSpawnDelay);
-        } else if(blueBasics.isEmpty() && blueBasicTimer.elapsed()) {
+        } else if(blueBasics.allDead() && blueBasicTimer.elapsed()) {
             BlueBasic blueBasic = factory.createBlueBasic(0, 0);
             blueBasic.x = CommonScreen.width / 2.f;
             blueBasic.y = CommonScreen.height + 300;
@@ -109,6 +102,9 @@ public class BasicEnemySpawner extends GameSystem {
     }
 
     public void step(float delta) {
+        rotors.step(delta);
+        blueBasics.step(delta);
+
         spawnAsteroid();
         spawnRotors();
         spawnBlueBasics();

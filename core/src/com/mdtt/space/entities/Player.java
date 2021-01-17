@@ -5,13 +5,13 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.utils.TimeUtils;
 import com.mdtt.space.Assets;
+import com.mdtt.space.SpaceGame;
 import com.mdtt.space.entities.common.Ship;
 import com.mdtt.space.game.EntityFactory;
 import com.mdtt.space.game.GameUtils;
 import com.mdtt.space.screens.SpaceGameScreen;
 
 public class Player extends Ship {
-    public static int playerHealth = 100;
     public static float playerBaseDamage = 10.f;
     public static float playerCollisionScale = 0.7f;
     public static String playerBulletSprite = "Laser_Small";
@@ -30,11 +30,9 @@ public class Player extends Ship {
 
     public Player(Assets assets, SpaceGameScreen screen) {
         super(assets, screen);
-        health = playerHealth;
-        sprites = new Sprite[]{
-                assets.getSprite("PlayerRed_Frame", 1),
-                assets.getSprite("PlayerRed_Frame", 2),
-                assets.getSprite("PlayerRed_Frame", 3)
+        health = SpaceGame.playerHealth;
+        sprites = new Sprite[] {
+                SpaceGame.getPlayerSkin()
         };
 
         factory = new EntityFactory(assets, screen);

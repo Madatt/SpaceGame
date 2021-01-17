@@ -674,7 +674,7 @@ PlayerGreen_Frame
   size: 113, 121
   orig: 128, 128
   offset: 14, 6
-  index: 92
+  index: 1
 PlayerRed_Frame
   rotate: false
   xy: 1548, 703

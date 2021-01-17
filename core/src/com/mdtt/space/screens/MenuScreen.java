@@ -14,6 +14,7 @@ public class MenuScreen extends CommonScreen implements Screen {
 
     private Text textGame;
     private Text textTouch;
+    private Text textOptions;
 
     public MenuScreen(Game game, Assets assets) {
         super(game, assets);
@@ -24,6 +25,10 @@ public class MenuScreen extends CommonScreen implements Screen {
         textTouch = new Text(assets, null, 80, 10, "Touch", true);
         textTouch.x = width / 2.f;
         textTouch.y = height / 2f;
+
+        textOptions = new Text(assets, null, 60, 10, "Options", false);
+        textOptions.x = textOptions.getBox().getWidth() / 2;
+        textOptions.y = textOptions.getBox().getHeight() / 2;
     }
 
 
@@ -46,12 +51,15 @@ public class MenuScreen extends CommonScreen implements Screen {
 
         textGame.draw(batch);
         textTouch.draw(batch);
+        textOptions.draw(batch);
 
         batch.end();
 
-
-        if (touched()) {
+        if (touched(textTouch.getBox())) {
             game.setScreen(new SpaceGameScreen(game, assets));
+        } else
+        if (touched(textOptions.getBox())) {
+            game.setScreen(new OptionsScreen(game, assets));
         }
 
         textTouch.step(delta);

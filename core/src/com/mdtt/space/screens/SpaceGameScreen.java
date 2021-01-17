@@ -10,6 +10,7 @@ import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.utils.TimeUtils;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.mdtt.space.Assets;
+import com.mdtt.space.SpaceGame;
 import com.mdtt.space.entities.decor.Background;
 import com.mdtt.space.entities.decor.Text;
 import com.mdtt.space.entities.common.Bullet;
@@ -70,7 +71,7 @@ public class SpaceGameScreen extends CommonScreen implements Screen {
         textHealth = new Text(assets, this, 60, 5,
                 Integer.toString(player.health), false);
         textHealth.x = textHealth.getBox().getWidth() / 2;
-        textHealth.y = height;
+        textHealth.y = height - textHealth.getBox().getHeight() / 2;
         textHealth.addWaypoint(textHealth.x, textHealth.y + 10, 50);
         textHealth.addWaypoint(textHealth.x, textHealth.y - 10, 50);
         textHealth.addWaypoint(textHealth.x, textHealth.y + 10, 50);
@@ -215,7 +216,7 @@ public class SpaceGameScreen extends CommonScreen implements Screen {
             e.draw(batch);
         }
 
-        if (player.health < Player.playerHealth / 2) {
+        if (player.health < SpaceGame.playerHealth / 2) {
             textHealth.setBlink(true);
         } else {
             textHealth.setBlink(false);
@@ -226,7 +227,7 @@ public class SpaceGameScreen extends CommonScreen implements Screen {
 
         textScore.setText(String.format("%07d", score));
         textScore.x = width - textScore.getBox().getWidth() / 2;
-        textScore.y = height;
+        textScore.y = height - textScore.getBox().getHeight() / 2;
         textScore.draw(batch);
 
         textStart.draw(batch);
